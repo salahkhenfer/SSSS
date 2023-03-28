@@ -1,0 +1,44 @@
+.songs-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px ;
+
+ 
+    h1 {
+    font-size: 30px;
+    color: black;
+    }
+    button {
+    padding: 13px 17px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+    font-weight: 600;
+    z-index: 10;
+    .FontAwesomeIcon {
+    margin-left:5px;
+    font-size: 13px;
+ 
+    }
+    &:hover {
+    
+        color: black;
+        background-color: white;
+        border: 1px solid black
+        ;
+    }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .songs-nav{
+        justify-content: space-between;
+    }
+
+}
