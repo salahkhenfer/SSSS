@@ -2,7 +2,6 @@
 
     background-color: #fffefe;
     color: #555;
-    padding: 10px 20px ;
     text-align: center;
     position: fixed;
     left: 0;
@@ -13,14 +12,21 @@
   }
   
   .footer p {
-    margin: 10px  0px 10px 0px;
+    margin: 5px;
+
     
   }
+  .icon {
+    padding: 4px 0px 0px 0px;
+  }
+  
   
   .footer a  {
-    color: #555;
+        color: #555;
+    font-size: 20px;
     text-decoration: none;
-    font-size:30px;
+    margin: 5px ;
+  
    
   }
   
